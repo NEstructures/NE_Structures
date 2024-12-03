@@ -26,13 +26,13 @@ const Gallery = forwardRef((props, ref) => {
 
   // Array of captions corresponding to each image
   const captions = [
-    "AIRPORT Project",
+    "BIAL Waste Management Project @ Bangalore Airport",
     "GAIL Project",
     "KIA-SAHEN Project",
-    "AIRPORT Project",
+    "BIAL Waste Management Project @ Bangalore Airport",
    "GAIL Project",
     "KIA-SAHEN Project",
-    "AIRPORT Project",
+    "BIAL Waste Management Project @ Bangalore Airport",
    
   ];
 

@@ -8,7 +8,7 @@ function Contact() {
     window.location.href = "tel:+919880939000";
   };
   const openEmailClient = () => {
-    window.location.href = "mailto:sales@nestructures.in";
+    window.location.href = "mailto:info@nestructures.co";
   };
 
   const openMapLocation = () => {
@@ -90,7 +90,7 @@ function Contact() {
                           fill="#111111"
                         />
                       </svg>
-                      <p>sales@nestructures.in</p>
+                      <p>info@nestructures.co</p>
                     </div>
                   </div>
                   <div className="p-contact-subtext-div">

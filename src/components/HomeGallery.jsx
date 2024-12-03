@@ -14,7 +14,7 @@ const padding = 20;
 
 const gallerySets = [
   {
-    heading: "Airport Project",
+    heading: "BIAL Waste Management Project @ Bangalore Airport",
     description:
       "Lorem ipsum dolor sit amet consectetur. Mi elementum pretium tortor nulla. Ut at fermentum.",
     images: [IMG4, IMG8, IMG6, IMG2, IMG3, IMG5],
