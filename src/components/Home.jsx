@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import GetToKnowImg from "../assets/NE Structures homepage.webp"
+import GetToKnowImg from "../assets/NE Structures homepage.webp";
 import Rectangle1 from "../assets/Download/download1.jpg";
 import Rectangle2 from "../assets/Download/download2.jpg";
 import Rectangle3 from "../assets/Download/download3.jpg";
@@ -28,6 +28,11 @@ import HomeImg11 from "../assets/Marquee-New/home11.webp";
 import HomeImg12 from "../assets/Marquee-New/home12.webp";
 import HomeImg13 from "../assets/Marquee-New/home13.webp";
 import HomeImg14 from "../assets/Marquee-New/home14.webp";
+import HomeImg15 from "../assets/Marquee-New/home15.jpeg";
+import HomeImg16 from "../assets/Marquee-New/home16.jpeg";
+import HomeImg17 from "../assets/Marquee-New/home17.jpeg";
+import HomeImg18 from "../assets/Marquee-New/home18.jpeg";
+import HomeImg19 from "../assets/Marquee-New/home19.jpeg";
 import Advantages from "../assets/HomeBanner/Advantages.png";
 import AdvantagesSmall from "../assets/HomeBanner/AdvantagesSmall.png";
 import Staad from "../assets/AboutIMG/Staad.png";
@@ -276,6 +281,11 @@ function Home() {
             <img src={HomeImg12} alt="NE Structures Marquee Img" />
             <img src={HomeImg13} alt="NE Structures Marquee Img" />
             <img src={HomeImg14} alt="NE Structures Marquee Img" />
+            <img src={HomeImg15} alt="NE Structures Marquee Img" />
+            <img src={HomeImg16} alt="NE Structures Marquee Img" />
+            <img src={HomeImg17} alt="NE Structures Marquee Img" />
+            <img src={HomeImg18} alt="NE Structures Marquee Img" />
+            <img src={HomeImg19} alt="NE Structures Marquee Img" />
             <img src={HomeImg1} alt="NE Structures Marquee Img" />
             <img src={HomeImg2} alt="NE Structures Marquee Img" />
             <img src={HomeImg3} alt="NE Structures Marquee Img" />
@@ -290,6 +300,11 @@ function Home() {
             <img src={HomeImg12} alt="NE Structures Marquee Img" />
             <img src={HomeImg13} alt="NE Structures Marquee Img" />
             <img src={HomeImg14} alt="NE Structures Marquee Img" />
+            <img src={HomeImg15} alt="NE Structures Marquee Img" />
+            <img src={HomeImg16} alt="NE Structures Marquee Img" />
+            <img src={HomeImg17} alt="NE Structures Marquee Img" />
+            <img src={HomeImg18} alt="NE Structures Marquee Img" />
+            <img src={HomeImg19} alt="NE Structures Marquee Img" />
           </div>
         </div>
       </div>
