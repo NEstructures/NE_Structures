@@ -1,39 +1,47 @@
 import React, { useState, useRef, useEffect, forwardRef } from "react";
-import NewImg3 from "../assets/NewImgs/newImg3.jpeg";
-import IMG1 from "../assets/HomeBanner/IMG1.png";
-import IMG2 from "../assets/HomeBanner/IMG2.jpg";
-import IMG3 from "../assets/HomeBanner/IMG3.png";
-import IMG4 from "../assets/HomeBanner/IMG4.png";
-import IMG5 from "../assets/HomeBanner/IMG5.jpg";
-import IMG6 from "../assets/HomeBanner/IMG6.jpg";
-import IMG7 from "../assets/HomeBanner/IMG7.jpg";
-import IMG8 from "../assets/HomeBanner/IMG8.jpg";
-import IMG9 from "../assets/HomeBanner/IMG9.jpg";
-import IMG10 from "../assets/Gail/gail1.jpg"
-import IMG16 from "../assets/Gail/gail2.jpg"
-import IMG12 from "../assets/Kia-Sahen/kia2.jpg"
-import IMG11 from "../assets/Kia-Sahen/kia1.jpg"
-import IMG13 from "../assets/Airport/airport1.jpg"
-import IMG14 from "../assets/Airport/airport2.jpg"
-import IMG15 from "../assets/Airport/airport3.jpg"
+
+import IMG10 from "../assets/Gail/gail1.jpg";
+import IMG16 from "../assets/Gail/gail2.jpg";
+import IMG12 from "../assets/Kia-Sahen/kia2.jpg";
+import IMG11 from "../assets/Kia-Sahen/kia1.jpg";
+import IMG13 from "../assets/Airport/airport1.jpg";
+import IMG14 from "../assets/Airport/airport2.jpg";
+import IMG15 from "../assets/Airport/airport3.jpg";
+
+import HomeImg15 from "../assets/Marquee-New/home15.jpeg";
+import HomeImg16 from "../assets/Marquee-New/home16.jpeg";
+import HomeImg17 from "../assets/Marquee-New/home17.jpeg";
+import HomeImg18 from "../assets/Marquee-New/home18.jpeg";
+import HomeImg19 from "../assets/Marquee-New/home19.jpeg";
 
 const Gallery = forwardRef((props, ref) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const newGalleryRef = useRef(null);
   const [galleryWidth, setGalleryWidth] = useState(0);
 
-  const images = [IMG15,IMG10,IMG12,IMG13,IMG16,IMG11,IMG14];
+  const images = [
+    IMG15,
+    IMG10,
+    IMG12,
+    IMG13,
+    IMG16,
+    IMG11,
+    IMG14,
+    HomeImg15,
+    HomeImg16,
+    HomeImg17,
+    HomeImg18,
+    HomeImg19,
+  ];
 
-  // Array of captions corresponding to each image
   const captions = [
     "BIAL Waste Management Project @ Bangalore Airport",
     "GAIL Project",
     "KIA-SAHEN Project",
     "BIAL Waste Management Project @ Bangalore Airport",
-   "GAIL Project",
+    "GAIL Project",
     "KIA-SAHEN Project",
     "BIAL Waste Management Project @ Bangalore Airport",
-   
   ];
 
   useEffect(() => {
