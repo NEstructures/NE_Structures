@@ -80,9 +80,7 @@ function Footer() {
             </Link>
             <p className="heading">Products</p>
             <Link to="/PreEngineeredBuildings">Pre Engineering Buildings</Link>
-            <Link to="/HighRiseSteelStructures">
-              High Rise Steel Buildings
-            </Link>
+            <Link to="/HighRiseSteelStructures">High Rise Steel Buildings</Link>
           </div>
           <div className="footerColumnSet">
             <p className="heading">Legal</p>
@@ -101,7 +99,7 @@ function Footer() {
         <p>2024 All rights reserved</p>
         <p>
           Crafted by{" "}
-          <a href="https://koiosengg.com/" target="_blank">
+          <a href="https://www.koiostudio.com/" target="_blank">
             The Koios Studio
           </a>
         </p>
@@ -133,9 +131,7 @@ function Footer() {
           <div className="mobileFooterLinkSet">
             <sub>Product</sub>
             <Link to="/PreEngineeredBuildings">Pre Engineering Buildings</Link>
-            <Link to="/HighRiseSteelStructures">
-              High Rise Steel Buildings
-            </Link>
+            <Link to="/HighRiseSteelStructures">High Rise Steel Buildings</Link>
             <Link to="/RoofingSheets">Roofing Sheets</Link>
             <Link to="/CZPurlins">CZ - Purlins</Link>
           </div>
@@ -218,7 +214,7 @@ function Footer() {
         </div>
         <p>
           Crafted by{" "}
-          <a href="https://koiosengg.com/" target="_blank">
+          <a href="https://www.koiostudio.com/" target="_blank">
             The Koios Studio
           </a>
         </p>
